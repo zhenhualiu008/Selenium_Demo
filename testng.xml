@@ -1,0 +1,21 @@
+<suite name="maven.testsuite">
+
+    <listeners>
+        <!--<listener class-naRetryListenerener"/>-->
+        <!--<listener class-naTestNGListenerener"/>-->
+    </listeners>
+
+
+    <test name="testcase" >
+        <classes>  
+            <class name="scripts.testscripts.billingmanagement.BaiduLogin"/>
+        </classes>
+    </test>
+
+    <test name="testcase1" >
+        <classes>
+            <class name="scripts.testscripts.billingmanagement.FailedScript"/>
+        </classes>
+    </test>
+
+</suite>
